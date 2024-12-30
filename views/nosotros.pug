@@ -1,0 +1,27 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen sobre Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia unde placeat a. Amet illo animi minima at, cupiditate sunt dicta voluptatem aliquid ea similique enim delectus exercitationem. Animi, natus maiores!
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi beatae, eligendi sint obcaecati iure nostrum quos rerum corporis a maiores, ipsam ea eos voluptas similique consequatur modi ipsum deleniti!
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem officiis corporis quo. A officiis consequuntur veritatis, quidem veniam iste neque quibusdam, rerum reiciendis nisi adipisci mollitia sit ut! Fugit, pariatur!
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="Icono Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Icono Destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                .col-md-4 
+                    img(src="img/icono_precio.svg", alt="Icono Precio", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
